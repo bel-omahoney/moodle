@@ -12,7 +12,7 @@ $capabiliies = array(
     ),
 
     'block/todolist:addinstance' => array(
-        'riskbitmask' => RISK_XSS | RISK_PERSONAL,
+        'riskbitmask' => RISK_PERSONAL,
         'captype' => 'write',
         'contextlevel' => CONTEXT_BLOCK,
         'archetypes' => array(
